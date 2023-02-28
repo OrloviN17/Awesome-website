@@ -1,0 +1,49 @@
+.first_segment{
+background-color: #1f2937;;
+color: white;
+display: flex;
+flex-direction: column;
+}
+.header{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+  
+    display: flex;
+}
+.logo{
+    font-size: 24px;
+    flex: 1;
+    color: #f9faf8;
+}
+.links{
+    display: flex;
+    flex: 1;
+    font-size: 13px;
+    justify-content: right;
+}
+
+
+.content{
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.text{
+    flex: 1;
+}
+.hero{
+font-size: 48px;
+font-style: extra-bold;
+}
+.image{
+    justify-content: center;
+    flex: 1;
+    display: flex;
+}
+.picture{
+width: 150px;
+flex: 1;
+object-fit: contain;
+}
